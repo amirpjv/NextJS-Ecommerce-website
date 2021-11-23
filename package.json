@@ -1,0 +1,52 @@
+{
+  "name": "mynext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seeder": "node utils/seeder"
+  },
+  "dependencies": {
+    "@paypal/react-paypal-js": "^7.4.2",
+    "@popperjs/core": "^2.10.2",
+    "@reduxjs/toolkit": "^1.6.2",
+    "axios": "^0.22.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.1",
+    "bootstrap-switch-button-react": "^1.2.0",
+    "chart.js": "^3.6.0",
+    "cloudinary": "^1.27.1",
+    "cookie": "^0.4.1",
+    "formik": "^2.2.9",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "multer": "^1.4.3",
+    "next": "11.1.2",
+    "next-connect": "^0.10.2",
+    "next-redux-wrapper": "^7.0.5",
+    "next-themes": "0.0.15",
+    "notistack": "^2.0.2",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-bootstrap-switch": "^15.5.3",
+    "react-chartjs-2": "^3.3.0",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-radio-group": "^3.0.3",
+    "react-redux": "^7.2.5",
+    "react-toggle": "^4.1.2",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "streamifier": "^0.1.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}

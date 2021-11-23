@@ -1,0 +1,202 @@
+/* ----------- Loading ------------- */
+@import url("./loading.css");
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* margin-bottom: 35px; */
+}
+* {
+  box-sizing: border-box;
+}
+
+#footer {
+  min-height: calc(20vh - 56px);
+}
+
+/* #nav-link,
+#nav-link:after,
+#nav-link:before {
+  transition: all .5s !important;
+}
+#nav-link:hover {
+  color: black !important;
+} */
+
+/* xxxxxxxxxxxxxxxxx----------------------------------xxxxxxxxxxxxxxxxx */
+/* Nav Brand */
+
+/* #nav-brand {
+  transition: 1s ease;
+}
+#nav-brand:hover {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 1s ease;
+} */
+
+/* #nav-brand:after,
+#nav-brand:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+  width: 0%;
+  height: 0%;
+  transition: all 0.3s ease;
+}
+
+#nav-brand:after {
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+#nav-brand:before {
+  width: 0%;
+  height: 0%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+#nav-brand:hover::before,
+#nav-brand:hover::after {
+  width: 20px;
+  height: 20px;
+  border-color: black;
+} */
+
+/* Nav Link */
+
+#nav-link {
+  display: block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 0 15px #8e54e9;
+  transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  text-align: center;
+}
+
+#nav-link:after,
+#nav-link:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+  width: 0%;
+  height: 0%;
+  transition: all 0.5s ease;
+}
+
+#nav-link:after {
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+#nav-link:before {
+  width: 0%;
+  height: 0%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+#nav-link:hover::before,
+#nav-link:hover::after {
+  width: 100%;
+  height: 100%;
+  border-color: #fff;
+}
+
+/* Card image hover */
+#card-image:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+/* xxxxxxxxxxxxxxxxx-----------------toggle button-----------------xxxxxxxxxxxxxxxxx */
+/* when checked tracker color*/
+.custom-classname.react-toggle--checked .react-toggle-track {
+  background-color: black !important;
+}
+/* both tracker color*/
+.custom-classname.react-toggle .react-toggle-track {
+  background-color: white;
+}
+
+/* when checked hover tracker color*/
+.custom-classname.react-toggle--checked:hover:not(.react-toggle--disabled)
+  .react-toggle-track {
+  background-color: rgba(128, 128, 128, 0) !important;
+}
+/* both hover tracker color*/
+.custom-classname.react-toggle:hover:not(.react-toggle--disabled)
+  .react-toggle-track {
+  background-color: rgba(128, 128, 128, 0);
+}
+
+/* when checked bottom color*/
+/* .custom-classname.react-toggle--checked .react-toggle-thumb{
+  background-color: red !important;
+} */
+/* both bottom color*/
+/* .custom-classname.react-toggle .react-toggle-thumb{
+  background-color: yellow;
+} */
+/* xxxxxxxxxxxxxxxxx-----------------toggle button-----------------xxxxxxxxxxxxxxxxx */
+
+/* toggle button icon */
+#sun-toggle {
+  margin-top: -5px;
+  margin-left: -6px;
+}
+#moon-toggle {
+  margin-top: -4px;
+  margin-left: -3px;
+}
+/* #dropdown-basic{
+  outline: none !important;
+  box-shadow: none !important;
+} */
+#nav-dropdown {
+  color: #f0ad4e;
+}
+input[type="radio"] {
+  border: 0px;
+  width: 10%;
+  height: 0.7em;
+}
+
+#star {
+  margin: 1px;
+  margin-bottom: 5px;
+}
+#star1,
+#star2,
+#star3,
+#star4,
+#star5 {
+  cursor: pointer;
+}
+#search{
+  margin-top: 5px;
+}
+#close{
+  margin-top: 5px;
+}
+#close-btn:focus {box-shadow:none !important; outline:none !important;}
